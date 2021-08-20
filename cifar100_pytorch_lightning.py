@@ -14,7 +14,7 @@ from torch import nn
 device = torch.device('cuda')
 print(device)
 
-cifar100_root = '/data/home/yanghao/dataset/cifar/cifar100'
+cifar100_root = '/data/home/xxx/dataset/cifar/cifar100'
 
 transform_train = transforms.Compose([
     transforms.RandomCrop(32, padding=4),
